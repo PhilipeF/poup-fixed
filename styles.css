@@ -28,12 +28,15 @@ button {
     background: white;
     padding: 20px;
     width: 100%;
-    max-width: 300px;   
+    max-width: 300px;  
+    position: relative; 
 }
 
-.button-close {
+.popup-close {
     position: absolute;
-    
+    right: 5%;
+    top: 5%;
+    cursor: pointer;
 }
 
 .popup a {
